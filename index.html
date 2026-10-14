@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeetCode AI Analyzer – Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 32px 0 8px; }
+  .meta { color: #888; font-size: 14px; } code { font-size: 14px; }
+  nav a { margin-right: 12px; } hr { margin: 56px 0; border: 0; border-top: 1px solid #8884; }
+</style>
+</head>
+<body>
+<nav><a href="#en">English</a><a href="#hu">Magyar</a></nav>
+
+<section id="en">
+<h1>LeetCode AI Analyzer – Privacy Policy</h1>
+<p class="meta">Last updated: 14 October 2026</p>
+
+<p>LeetCode AI Analyzer is a browser extension that sends your LeetCode solution to an AI provider that <strong>you</strong> choose and shows the answer next to the problem. It has no server of its own, no accounts, no analytics and no advertising.</p>
+
+<h2>What the extension sends, and to whom</h2>
+<p>When you click <em>Analyze</em> (or press the shortcut), the extension sends the following to the AI endpoint configured in its settings, and only there:</p>
+<ul>
+  <li>the code from the editor, or from your latest submission, and its programming language;</li>
+  <li>the problem title and identifier, and (if the setting is on) an excerpt of the problem statement;</li>
+  <li>for a submission: its status, and if it failed, the failing test case, expected and actual output and the error message;</li>
+  <li>the extra instructions you wrote in the settings, plus the response preferences (language, level of detail, and so on);</li>
+  <li>your API key, as the authorization header, to that same endpoint.</li>
+</ul>
+<p>The provider is one of Google Gemini, Groq, OpenRouter, a local Ollama server, or a custom OpenAI-compatible address you entered. What that provider does with the data is governed by its own terms and privacy policy. With a local Ollama server, nothing leaves your computer.</p>
+<p>Nothing is sent to the developer of this extension or to any other third party.</p>
+
+<h2>What the extension reads</h2>
+<ul>
+  <li>On <code>leetcode.com/problems/*</code> it reads the code in the editor and the problem text from the page.</li>
+  <li>To load your latest submission it calls LeetCode's own GraphQL API from the page, using your existing login session (including the <code>csrftoken</code> cookie that LeetCode requires). This stays between your browser and leetcode.com.</li>
+</ul>
+
+<h2>What is stored on your device</h2>
+<p>The extension uses the browser's local extension storage (<code>storage.local</code>) for: your settings, your API key, the chosen code source, the on/off state, and the position and size of the result panel. This data is not synced and not sent anywhere except as described above (the API key goes only to the endpoint you configured). Removing the extension deletes it.</p>
+
+<h2>Permissions</h2>
+<p>Access to leetcode.com (reading code and submissions), to the built-in provider hosts and to localhost (the AI calls), and to storage and clipboard (settings and the Copy button). Access to a custom endpoint is requested only when you enter one, and only for that address.</p>
+
+<h2>Retention, sharing, children</h2>
+<p>The developer does not collect, receive, sell or share any data. The extension is not directed at children.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the date above changes and the new version is published at this address. Questions: <strong>szemeredibence@gmail.com</strong></p>
+<p class="meta">LeetCode AI Analyzer is an independent project and is not affiliated with or endorsed by LeetCode.</p>
+</section>
+
+<hr>
+
+<section id="hu" lang="hu">
+<h1>LeetCode AI Analyzer – Adatvédelmi nyilatkozat</h1>
+<p class="meta">Utolsó frissítés: 2026. október 14.</p>
+
+<p>A LeetCode AI Analyzer egy böngészőbővítmény, amely a LeetCode-megoldásodat az <strong>általad választott</strong> AI-szolgáltatónak küldi el, és a választ a feladat mellett jeleníti meg. Nincs saját szervere, nincs regisztráció, analitika vagy reklám.</p>
+
+<h2>Mit küld el a bővítmény, és kinek</h2>
+<p>Az <em>Analyze</em> gombra kattintáskor (vagy a billentyűparancsra) a bővítmény a következőket küldi el a beállításokban megadott AI-végpontnak, és csak oda:</p>
+<ul>
+  <li>a szerkesztőben lévő vagy a legutóbbi beadásod kódját és a programozási nyelvet;</li>
+  <li>a feladat címét és azonosítóját, és (ha be van kapcsolva) a feladatleírás egy részletét;</li>
+  <li>beadás esetén annak státuszát, hibás beadásnál a hibás tesztesetet, az elvárt és a kapott kimenetet, valamint a hibaüzenetet;</li>
+  <li>a beállításokban megadott saját utasításaidat és a válasz beállításait (nyelv, részletesség stb.);</li>
+  <li>az API-kulcsodat, az engedélyezési fejlécben, ugyanennek a végpontnak.</li>
+</ul>
+<p>A szolgáltató a Google Gemini, a Groq, az OpenRouter, egy helyi Ollama szerver vagy egy általad megadott, OpenAI-kompatibilis egyéni cím lehet. Hogy az adatokkal mit kezd, azt a szolgáltató saját feltételei és adatvédelmi szabályzata határozza meg. Helyi Ollama esetén semmi nem hagyja el a gépedet.</p>
+<p>A bővítmény fejlesztőjének és más harmadik félnek semmi nem megy.</p>
+
+<h2>Mit olvas a bővítmény</h2>
+<ul>
+  <li>A <code>leetcode.com/problems/*</code> oldalakon a szerkesztő kódját és a feladat szövegét olvassa.</li>
+  <li>A legutóbbi beadás betöltéséhez a LeetCode saját GraphQL API-ját hívja az oldalról, a meglévő bejelentkezéseddel (a LeetCode által megkövetelt <code>csrftoken</code> sütivel együtt). Ez a böngésződ és a leetcode.com között marad.</li>
+</ul>
+
+<h2>Mit tárol az eszközödön</h2>
+<p>A bővítmény a böngésző helyi bővítménytárolóját (<code>storage.local</code>) használja: a beállításaidat, az API-kulcsodat, a kiválasztott kódforrást, a be/ki állapotot és az eredménypanel helyét és méretét. Ezek nincsenek szinkronizálva, és a fent leírtakon kívül sehova nem kerülnek (az API-kulcs csak a megadott végponthoz). A bővítmény eltávolításával törlődnek.</p>
+
+<h2>Jogosultságok</h2>
+<p>Hozzáférés a leetcode.com-hoz (kód és beadások olvasása), a beépített szolgáltatók hosztjaihoz és a localhosthoz (AI-hívások), valamint a tárhoz és a vágólaphoz (beállítások és a Másolás gomb). Egyéni végponthoz csak akkor kér hozzáférést, ha megadsz egyet, és csak arra a címre.</p>
+
+<h2>Megőrzés, megosztás, gyerekek</h2>
+<p>A fejlesztő semmilyen adatot nem gyűjt, nem kap meg, nem ad el és nem oszt meg. A bővítmény nem gyerekeknek szól.</p>
+
+<h2>Változások és kapcsolat</h2>
+<p>Ha a nyilatkozat változik, a fenti dátum is változik, és az új változat ezen a címen jelenik meg. Kérdés esetén: <strong>YOUR-EMAIL@example.com</strong></p>
+<p class="meta">A LeetCode AI Analyzer független projekt, nem áll kapcsolatban a LeetCode-dal, és az nem támogatja.</p>
+</section>
+</body>
+</html>
